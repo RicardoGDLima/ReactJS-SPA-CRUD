@@ -4,7 +4,7 @@ export function Footer() {
     return (
         <Container>
             <span>
-                Desenvolvido r <strong>
+                Desenvolvido por <strong>
                     Ricardo Gome<span className="text-danger">s</span>
                 </strong>
             </span>
