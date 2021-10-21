@@ -11,13 +11,16 @@ interface MainProps {
 export function Main({ children }: MainProps) {
 
     return (
-        <Container>
-             <Header icon="home" title="Início" subtitle="Projeto crud" />
-            <main className="content container-fluid">
-                <div className="p-3 mt-3">
-                    {children}
+        <>
+            <Header icon="home" title="Início" subtitle="Projeto CRUD" />
+
+            <Container>
+                <div className="content container-fluid">
+                    <div className="p-3 mt-3">
+                        {children}
+                    </div>
                 </div>
-            </main>
-        </Container>
+            </Container>
+        </>
     )
 }
