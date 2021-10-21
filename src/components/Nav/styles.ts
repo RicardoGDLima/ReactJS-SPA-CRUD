@@ -13,14 +13,16 @@ background-color: var(--bg-dark);
     text-decoration: none;
     color: #fff;
     font-weight: 300;
-    padding: 15px;  
-      
-}
+    padding: 15px; 
+ 
+    &:hover {
+        background: linear-gradient(135deg, #07a7e3 0%, #32dac3 100%);
+    }
 
-.menu a:hover {
-    background: linear-gradient(135deg, #07a7e3 0%, #32dac3 100%);
+    &:first-child {
+        padding-top: 25px;
+    }
 }
-
 @media(max-width: 768px) {
     .menu {
        display: flex; 

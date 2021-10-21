@@ -18,7 +18,7 @@ body {
 }
 
 body, input, button {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 16px;
 }
 

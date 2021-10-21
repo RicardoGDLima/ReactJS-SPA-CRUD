@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.aside`
    
-        background-color: black;//var(--bg-dark);
+        background-color: var(--bg-dark);
         display: flex;
         align-items: center;
         justify-content: center;

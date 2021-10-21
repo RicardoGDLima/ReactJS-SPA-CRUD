@@ -6,6 +6,7 @@ export function Routes() {
         <Switch>
             <Route exact path='/' component={Home}></Route>
             <Redirect from='*' to='/' />
+            <Route path='/users' />
         </Switch>
     )
 }
