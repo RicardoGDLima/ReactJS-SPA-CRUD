@@ -11,11 +11,6 @@
         0 2px 23px 0 rgba(0, 0, 0, 0.1),
         0 2px 49px 0 rgba(0, 0, 0, 0.06);
 }
-
-* {
-    box-sizing: border-box;
-    font-family: "Montserrat", sans-serif;
-}
     
 .app {
     margin: 0px;
@@ -86,3 +81,7 @@ footer {
         "footer";
     }
 }
+
+@media(max-width: 767px) {
+   
+  }

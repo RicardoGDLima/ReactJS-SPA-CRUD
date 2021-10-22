@@ -6,8 +6,6 @@ interface HeaderProps {
     subtitle: string;
 }
 
-
-
 export function Header({ icon, title, subtitle }: HeaderProps) {
    
     return (
