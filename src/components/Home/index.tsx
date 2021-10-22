@@ -1,20 +1,26 @@
 import { Main } from "../Main";
+import { Container } from "./styles";
 
 let colchetes = '{ } '
 export function Home() {
 
-    return (      
-            <Main>
+    return (
+        <Main>
+            <Container>
                 <div className="display-4">Bem Vindos!</div>
                 <hr />
-                <p className="mb-0">Sistema pra exemplificar a construção de um cadastro, desenvolvido com... </p> <br/>
-                    <p><span style={{background: 'black'}} className="text-info"><i className={'fab fa-react'}></i>React </span>, 
-                    <span style={{background: 'black'}} className="text-info"><i className={'fas fa-scroll'}></i>Typescript</span>, 
-                    <span style={{background: 'black', color: "#E985CC"}}><i className={'far fa-file-code'}></i> Styled-components</span>, 
-                    <span style={{background: 'black', color: '#FFF'}}><i className={'far fa-flag'}></i> Font-awesome</span>, 
-                    <span style={{background: 'black', color: '#563D7C'}}><i className={"fab fa-btc"}></i> Bootstrap</span>,
-                    <span style={{background: 'black', color: '#FFF'}}><i className={"fab fa-autoprefixer"}></i> axios </span>, 
-                    <span style={{background: 'black'}} className="text-warning"> {colchetes}json-server </span></p>
-            </Main>
+                <p className="mb-0">Sistema pra exemplificar a construção de um cadastro, desenvolvido com... </p> <br />
+                <p >
+                    <i className={'text-info fab fa-react'}> React JS</i>,
+                    <i className={'text-info fas fa-scroll'}> Typescript</i>,
+                    <i className={'pink far fa-file-code'}> Styled-components</i>,
+                    <i className={'white far fa-flag'}> Font-awesome</i>,
+                    <i className={'purple fab fa-btc'}> Bootstrap</i>,
+                    <i className={"white fab fa-autoprefixer"}> axios</i>,
+                    <i className={'text-warning'}> {colchetes}json-server </i> ,
+                    <i className={"white fas fa-bread-slice"}> Toastify</i>
+                </p>
+            </Container>
+        </Main>
     )
 }
