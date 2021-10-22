@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPen, faPlus } from '@fortawesome/free-solid-svg-icons'
 
 import { api } from "../../../services/api"
 import { Main } from "../../Main"
@@ -87,7 +89,7 @@ export function UsersList() {
                 <div className="col-12 d-flex justify-content-end">
                     <button className="btn btn-info "
                         onClick={() => toggleModal()}>
-                        Adicionar <i className={"fas fa-plus"}></i>
+                        Adicionar <FontAwesomeIcon icon={faPlus} />
                     </button>
                 </div>
             </div>
@@ -122,7 +124,7 @@ export function UsersList() {
                     <td>                       
                         <button className="btn btn-warning"
                             onClick={() => handleEditUser(user)}>
-                            <i className={"fa fa-pen"}></i>
+                            <FontAwesomeIcon icon={faPen} />
                         </button>
 
                         <button className="btn btn-danger ml-2"

@@ -2,17 +2,22 @@ import styled from "styled-components";
 
 export const Container = styled.span`
     
-    i.pink {
+    .pink {
         color: #E985CC;
     }   
     
-    i{
+   i { 
         padding: 16px;
         color: #FFF;
         background : black;
+        font-size: 14px;
+   
+        margin-top: 5px;
+        margin-left: 5px;
+    
     }
 
-    i.purple{
+    .purple{
         color: #563D7C;
     }
 `
