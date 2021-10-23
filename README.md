@@ -25,8 +25,6 @@ Projeto desenvolvido em ReactJS para por em prática os conhecimentos adquiridos
 * font-awesome (conjunto de ferramentas de fontes e ícones com base em CSS e LESS)
 
 </br>
-</br>
-</br>
 
 ## Apresentação
 </br>
