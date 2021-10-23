@@ -15,7 +15,6 @@ export default createGlobalStyle`
    
 body {
     background: #FFF;
-    //color: #FFF;
 }
 
 body, input, button {
@@ -30,6 +29,4 @@ h1, h2, h3, h4, h5, h6, strong {
 button {
     cursor: pointer;
 }
-
-
 `

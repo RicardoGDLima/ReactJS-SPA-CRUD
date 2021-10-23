@@ -1,6 +1,8 @@
 import { useRef } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPlus } from '@fortawesome/free-solid-svg-icons'
 
 import { Input } from '../../Input';
 import { Modal } from '../../Modal';
@@ -52,7 +54,7 @@ export function ModalAddUser({ isOpen, setIsOpen, handleAddUser }: ModalAddUserP
 
           <button type="submit">
             <p className="text">Salvar</p>
-            <div className="icon"><i className={"fas fa-plus"}></i> </div>
+            <div className="icon"><FontAwesomeIcon icon={faPlus}/> </div>
           </button>
         </Form>
       </Modal>
